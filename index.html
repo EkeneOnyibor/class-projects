@@ -1,30 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
+      <form action="" id="myform"  onsubmit="return validate();">
+        <p id="msg"></p>
+        <p></p>
         <fieldset>
-            <legend>Project Information</legend>
-            <p>
-                <label for="name">Fullname <br> <input type="name" name="name"
-                        placeholder="input your name"></label><br>
-                <label for="number">Phone Number <br> <input type="number" name="number"
-                        placeholder="input your phonenumber"></label><br>
-                <label for="name">Email <br> <input type="email" name="Email"
-                        placeholder="input your email"></label><br>
-                <label for="number">Age <br> <input type="number" name="number"
-                        placeholder="input your age"></label><br>
-
-            </p>
-
+          <legend>Project Information</legend>
+          <p>
+            <label for="name"
+              >Fullname <br />
+              <input
+                type="name"
+                name="name"
+                placeholder="input your name" /></label
+            ><br />
+            <label for="name"
+              >Email <br />
+              <input
+                type="email"
+                name="email"
+                placeholder="input your email" /></label
+            ><br />
+           
+          </p>
+           <input type="submit" value="submit"/>
         </fieldset>
+       
+      </form>
     </main>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
